@@ -10,10 +10,10 @@
 		C196823D1DD9A760009C3FFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C196823C1DD9A760009C3FFB /* AppDelegate.swift */; };
 		C196823F1DD9A760009C3FFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C196823E1DD9A760009C3FFB /* ViewController.swift */; };
 		C19682421DD9A760009C3FFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19682401DD9A760009C3FFB /* Main.storyboard */; };
-		C19682441DD9A760009C3FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19682431DD9A760009C3FFB /* Assets.xcassets */; };
 		C19682471DD9A760009C3FFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C19682451DD9A760009C3FFB /* LaunchScreen.storyboard */; };
 		C19682521DD9A760009C3FFB /* __Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19682511DD9A760009C3FFB /* __Tests.swift */; };
 		C196825D1DD9A760009C3FFB /* __UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C196825C1DD9A760009C3FFB /* __UITests.swift */; };
+		C19682A51DD9C179009C3FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19682A41DD9C179009C3FFB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		C196823C1DD9A760009C3FFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C196823E1DD9A760009C3FFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C19682411DD9A760009C3FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C19682431DD9A760009C3FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C19682461DD9A760009C3FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C19682481DD9A760009C3FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C196824D1DD9A760009C3FFB /* 食譜Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "食譜Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,7 @@
 		C19682581DD9A760009C3FFB /* 食譜UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "食譜UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C196825C1DD9A760009C3FFB /* __UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __UITests.swift; sourceTree = "<group>"; };
 		C196825E1DD9A760009C3FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C19682A41DD9C179009C3FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../test/test/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,8 @@
 				C196823C1DD9A760009C3FFB /* AppDelegate.swift */,
 				C196823E1DD9A760009C3FFB /* ViewController.swift */,
 				C19682401DD9A760009C3FFB /* Main.storyboard */,
-				C19682431DD9A760009C3FFB /* Assets.xcassets */,
 				C19682451DD9A760009C3FFB /* LaunchScreen.storyboard */,
+				C19682A41DD9C179009C3FFB /* Assets.xcassets */,
 				C19682481DD9A760009C3FFB /* Info.plist */,
 			);
 			path = "食譜";
@@ -233,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C19682471DD9A760009C3FFB /* LaunchScreen.storyboard in Resources */,
-				C19682441DD9A760009C3FFB /* Assets.xcassets in Resources */,
+				C19682A51DD9C179009C3FFB /* Assets.xcassets in Resources */,
 				C19682421DD9A760009C3FFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +503,7 @@
 				C19682631DD9A760009C3FFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C19682641DD9A760009C3FFB /* Build configuration list for PBXNativeTarget "食譜Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +512,7 @@
 				C19682661DD9A760009C3FFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C19682671DD9A760009C3FFB /* Build configuration list for PBXNativeTarget "食譜UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +521,7 @@
 				C19682691DD9A760009C3FFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
